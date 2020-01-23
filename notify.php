@@ -15,7 +15,7 @@ curl_setopt( $chOne, CURLOPT_POSTFIELDS, "message=$message&imageThumbnail=http:/
 // follow redirects
 curl_setopt( $chOne, CURLOPT_FOLLOWLOCATION, 1);
 //ADD header array
-$headers = array( 'Content-type: application/x-www-form-urlencoded', 'Authorization: Bearer KjRUssYPreUpWFUnwT8Z7rHdmwn9JfHZvLvtos3WKOX1h', );  // หลังคำว่า Bearer ใส่ line authen code ไป
+$headers = array( 'Content-type: application/x-www-form-urlencoded', 'Authorization: Bearer jRUssYPreUpWFUnwT8Z7rHdmwn9JfHZvLvtos3WKOX1', );  // หลังคำว่า Bearer ใส่ line authen code ไป
 curl_setopt($chOne, CURLOPT_HTTPHEADER, $headers);
 //RETURN
 curl_setopt( $chOne, CURLOPT_RETURNTRANSFER, 1);
